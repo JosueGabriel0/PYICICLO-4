@@ -29,4 +29,8 @@ Route::middleware([
     Route::get('/prueba', function () {
         return view('prueba');
     })->name('prueba');
+
+    Route::get('/prueba2', function () {
+        return view('prueba2');
+    })->name('prueba2');
 });
