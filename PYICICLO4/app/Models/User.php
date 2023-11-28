@@ -27,6 +27,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+
+        //Nuevos atributos
         'ap_paterno',
         'ap_materno',
         'fecha_de_nacimiento',

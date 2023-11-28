@@ -21,6 +21,13 @@ class UserFactory extends Factory
     public function definition(): array
     {
         return [
+
+            'name' => 'Angel Sullon',
+            'email' => 'angelSullon@gmail.com',
+            'password' => bcrypt('12345678'), // password
+
+            //Factorys para crear muchos datos
+            /*
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
             'email_verified_at' => now(),
@@ -30,6 +37,20 @@ class UserFactory extends Factory
             'remember_token' => Str::random(10),
             'profile_photo_path' => null,
             'current_team_id' => null,
+
+            //Nuevos atributos
+            'ap_paterno'=>$this->faker->word(),
+            'ap_materno'=>$this->faker->word(),
+            'fecha_de_nacimiento'=>$this->faker->dateTime(),
+            'genero'=>$this->faker->numberBetween(1,5),
+            'direccion'=>$this->faker->word(),
+            'telefono'=>$this->faker->numberBetween(100000000, 999999999),
+            'DNI'=>$this->faker->numberBetween(10000000, 99999999),
+            'pais_de_origen'=>$this->faker->word(),
+            'ciudad'=>$this->faker->word(),
+            'estado_civil'=>$this->faker->numberBetween(1,5),
+            'nacionalidad'=>$this->faker->word(),
+            */
         ];
     }
 
@@ -50,14 +71,14 @@ class UserFactory extends Factory
      */
     public function withPersonalTeam(callable $callback = null): static
     {
-        if (! Features::hasTeamFeatures()) {
+        if (!Features::hasTeamFeatures()) {
             return $this->state([]);
         }
 
         return $this->has(
             Team::factory()
                 ->state(fn (array $attributes, User $user) => [
-                    'name' => $user->name.'\'s Team',
+                    'name' => $user->name . '\'s Team',
                     'user_id' => $user->id,
                     'personal_team' => true,
                 ])
