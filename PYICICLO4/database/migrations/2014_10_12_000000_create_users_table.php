@@ -20,6 +20,20 @@ return new class extends Migration
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
+
+            //Nuevos atributos
+            $table->string('ap_paterno')->nullable();
+            $table->string('ap_materno')->nullable();
+            $table->date('fecha_de_nacimiento')->nullable();
+            $table->string('genero', 1)->nullable();
+            $table->string('direccion')->nullable();
+            $table->string('telefono')->nullable();
+            $table->string('DNI', 8)->nullable();
+            $table->string('pais_de_origen')->nullable();
+            $table->string('ciudad')->nullable();
+            $table->string('estado_civil', 1)->nullable();
+            $table->string('nacionalidad')->nullable();
+
             $table->timestamps();
         });
     }
