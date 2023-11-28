@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Livewire\Prueba;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,4 +25,6 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::get('/prueba', Prueba::class);
 });
