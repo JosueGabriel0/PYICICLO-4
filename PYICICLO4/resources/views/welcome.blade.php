@@ -74,22 +74,23 @@ a
 
         <!--Joel-->
         <body>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>Hola</h1>
-<h1>HOLA2</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
-<h1>Hola3</h1>
+
+
+
+            <div class="w-[1440px] h-[1024px] relative bg-white">
+                <div class="w-[1440px] h-[289px] left-0 top-0 absolute bg-sky-600"></div>
+                <div class="w-[1052px] h-[163px] left-[269px] top-[7px] absolute text-yellow-400 text-[100px] font-bold font-['Hepta Slab']">PRACTICAS PRE PROFESIONALES </div>
+
+
+              </div>
+
+
         </body>
+
+        <center>
+            <img width="990px" src="https://upeu.edu.pe/wp-content/uploads/2023/07/1-alumnos-scaled.webp" alt="Descripción de la imagen">
+            </center>
+
         <!--termina Joel-->
     </body>
 </html>
