@@ -17,6 +17,8 @@
     </head>
     <body>
         @vite('resources/css/app.css')
+        <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
+
         <nav class="flex responsive flex-row md:flex-col">
 
             <div class="w-1/5 h-16 aspect-square absolute bg-sky-900 border-b-4 border-b-yellow-400">
@@ -38,6 +40,10 @@
                     </a>
                 </div>
 
+                <div class="ml-auto mr-10">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+
                 @if (Route::has('login'))
                     <div class="ml-auto mr-8 mt-5">
                         @auth
@@ -57,10 +63,7 @@
                 @endif
             </div>
 
-            <div class="ml-auto">
 
-
-            </div>
         </div>
 
         </nav>
