@@ -1,7 +1,10 @@
 <?php
 
+use App\Livewire\Inicio;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Prueba;
+use App\Livewire\Prueba2;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +15,7 @@ use App\Livewire\Prueba;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -27,4 +31,5 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/prueba', Prueba::class);
+    Route::get('/prueba2', Prueba2::class);
 });
