@@ -19,6 +19,7 @@
         @vite('resources/css/app.css')
         <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
 
+        <!--Josue-->
         <nav class="flex responsive flex-row md:flex-col">
 
             <div class="w-1/5 h-16 aspect-square absolute bg-sky-900 border-b-4 border-b-yellow-400">
@@ -65,7 +66,13 @@
 
 
         </div>
-
         </nav>
+        <!--termina Josue-->
+
+        <!--Joel-->
+        <body>
+
+        </body>
+        <!--termina Joel-->
     </body>
 </html>
