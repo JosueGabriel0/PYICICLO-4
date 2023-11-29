@@ -90,13 +90,10 @@
 
               </div>
 
-
-        </body>
-
         <center>
             <img width="990px" src="https://upeu.edu.pe/wp-content/uploads/2023/07/1-alumnos-scaled.webp" alt="Descripción de la imagen">
             </center>
-
+        </body>
         <!--termina Joel-->
     </body>
 </html>
