@@ -66,16 +66,8 @@
 
 
 
-        </div>gi
-        <h1>Gaaaaa</h1>
-        <h2>Gaaaaaa2</h2>
-        sdvds
-        asdvxcv
-        asvddasvsad
-        sadvsdva
-        asdfvs
-        sadvds
-        dasv
+        </div>
+
         </nav>
         <!--termina Josue-->
 
