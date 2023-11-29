@@ -41,12 +41,19 @@
                     </a>
                 </div>
 
-                <div class="ml-auto mr-10">
-                    <i class="fa-brands fa-facebook"></i>
+                <div class="flex ml-auto">
+
+                <div class="mr-4 ">
+
+                    <i class="fa-brands fa-facebook fa-2x mr-4 mt-4" style="color: #007bff;"></i>
+                    <i class="fa-brands fa-instagram fa-2x mr-4 mt-4" style="color: #000000;"></i>
+                    <i class="fa-brands fa-x-twitter fa-2x mr-4 mt-4" style="color: #000000;"></i>
+                    <i class="fa-brands fa-youtube fa-2x mr-8 mt-4" style="color: #ff0000;"></i>
+
                 </div>
 
                 @if (Route::has('login'))
-                    <div class="ml-auto mr-8 mt-5">
+                    <div class="mr-8 mt-5">
                         @auth
                             <a href="{{ url('/dashboard') }}"
                                 class="font-semibold text-slate-900 hover:text-yellow-400 dark:text-slate-900 dark:hover:text-yellow-500 focus:outline focus:outline-2 focus:rounded-sm focus:outline-yellow-500">Dashboard</a>
@@ -64,9 +71,8 @@
                 @endif
             </div>
 
-a
-14
-14
+        </div>
+
         </div>
 
         </nav>
