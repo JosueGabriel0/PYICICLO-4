@@ -66,7 +66,7 @@
 
 
 
-        </div>
+        </div>gi
         <h1>Gaaaaa</h1>
         </nav>
         <!--termina Josue-->
