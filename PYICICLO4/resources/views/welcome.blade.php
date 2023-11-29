@@ -36,8 +36,9 @@
 
                 <div class="absolute">
                     <a href="{{ url('/') }}">
-                        <div class="mt-3 ml-8 text-sky-900 text-3xl font-bold font-['Inter']">Inicio</div>
-                        <div class="w-20 h-0 ml-8  border-4 border-yellow-400 hover:border-yellow-500"></div>
+                        <div class="mt-3 ml-8 text-sky-900 text-3xl font-bold font-['Inter'] border-b-4 border-yellow-400 hover:border-sky-900">Inicio
+                        </div>
+
                     </a>
                 </div>
 
@@ -45,10 +46,10 @@
 
                 <div class="mr-4 ">
 
-                    <i class="fa-brands fa-facebook fa-2x mr-4 mt-4" style="color: #007bff;"></i>
-                    <i class="fa-brands fa-instagram fa-2x mr-4 mt-4" style="color: #000000;"></i>
-                    <i class="fa-brands fa-x-twitter fa-2x mr-4 mt-4" style="color: #000000;"></i>
-                    <i class="fa-brands fa-youtube fa-2x mr-8 mt-4" style="color: #ff0000;"></i>
+                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-facebook fa-2x mr-4 mt-4" style="color: #007bff;"></i></a>
+                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-instagram fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
+                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-x-twitter fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
+                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-youtube fa-2x mr-8 mt-4" style="color: #ff0000;"></i></a>
 
                 </div>
 
