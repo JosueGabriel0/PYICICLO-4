@@ -1,12 +1,13 @@
 <body class="antialiased">
     <div class="overflow-hidden relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
       <!--Centro-->
+
         <div class="w-[1418px] h-[273px] left-[22px] top-[225px] absolute bg-sky-900 bg-opacity-95 rounded-[14px] border-4 border-yellow-400"></div>
 
         <div class="w-[250px] h-[99px] left-0 top-0 absolute bg-sky-900"></div>
         <div class="w-[17px] h-[25px] left-0 top-0 absolute bg-yellow-400"></div>
-        <img class="w-[225px] h-[73px] left-[49px] top-[10px] absolute" src="https://via.placeholder.com/225x73" />
-        <div class="w-[1000px] h-[101px] left-[323px] top-[-2px] absolute bg-gray-200"></div>
+        <img class="w-[174px] h-[73px] left-[49px] top-[10px] absolute" src="https://via.placeholder.com/225x73" />
+        <div class="w-[1098px] h-[101px] left-[250px] top-[-2px] absolute bg-gray-200"></div>
         <img class="w-[59px] h-[46px] left-[947px] top-[25px] absolute" src="https://via.placeholder.com/59x46" />
         <img class="w-[54px] h-[59px] left-[1037px] top-[18px] absolute" src="https://via.placeholder.com/54x59" />
         <img class="w-14 h-[52px] left-[1117px] top-[21px] absolute" src="https://via.placeholder.com/56x52" />
@@ -63,6 +64,7 @@
         <img class="w-8 h-[27px] left-[1375px] top-[977px] absolute" src="https://via.placeholder.com/32x27" />
         <img class="w-[156px] h-[42px] left-[1266px] top-[29px] absolute" src="https://via.placeholder.com/156x42" />
         <div class="w-[103px] h-[38px] left-[355px] top-[32px] absolute text-sky-900 text-[32px] font-bold font-['Inter']">Inicio</div>
-      </div>
+
+    </div>
 
 </body>
