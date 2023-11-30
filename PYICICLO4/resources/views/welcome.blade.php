@@ -85,9 +85,9 @@
         <body class="flex responsive flex-row md:flex-col">
 
             <head>
-            <div class="w-100 ml-4 mr-4 h-24 mt-2 rounded-lg aspect-square bg-sky-900 border-4 border-yellow-400 text-center text-white font-bold font-['Inter'] text-3xl">
+            <div class="w-100 ml-4 mr-4 h-16 mt-2 rounded-lg aspect-square bg-sky-900 border-4 border-yellow-400 text-center text-white font-bold font-['Inter'] text-3xl">
             <div class="mt-2">
-                Bienvenido al sistema de practicas pre profesionales para el rol de <br> “Coordinador de PPP"
+                Bienvenido al sistema de practicas pre profesionales
             </div>
             </div>
             </head>
@@ -253,28 +253,6 @@
     <div class="w-[223px] h-[18px] left-[1445px] top-[1010px] absolute text-center text-white text-sm font-medium font-['Inter']">Términos y condiciones de datos</div>
 </div>
 
-<div class="flex w-full ml-4 mr-4 h-64 mt-2 aspect-square bg-sky-900 ">
-    <div class="w-[74px] h-[60px] bg-yellow-400 mt-7 ml-32"></div>
-    <img class="w-[150px] h-[82px] mt-32 ml-24" src="{{ asset('storage/images/top103.png') }}" />
-    <img class="w-[150px] h-[78px] mt-32 ml-64" src="{{ asset('storage/images/sunedu3.png') }}" />
-    <img class="w-[220px] h-[120px] mt-28 ml-64" src="{{ asset('storage/images/sineace3.png') }}" />
-    <img class="w-[180px] h-[105px] mt-32 ml-64" src="{{ asset('storage/images/aaa.png') }}" />
-</div>
-
-
-<div class="">
-
-        <div class="w-full ml-4 mr-4 h-96 mt--2 aspect-square bg-slate-900  "></div>
-
-        <div class="flex w-full ml-4 mr-4 h-32 mt--2 aspect-square bg-slate-900 ">
-            <div class="w-[500px] h-8 ml-20 bg-slate-900 text-sm font-semibold font-['Inter']">.</div>
-            <img class="w-[160px] h-[80px] ml-32" src="{{ asset('storage/images/upeu4.webp') }}" />
-            <img class="w-[310px] h-[66px] ml-48" src="{{ asset('storage/images/ead4.webp') }}" />
-        </div>
-    </div>
-
-
-
 
     <div class="ml-4">
 
@@ -307,6 +285,27 @@
 
     </div>
 
+
+
+
+
+
+                    <div>
+                    <div class="w-full h-24 mt--2 aspect-square bg-sky-900  ">
+                        <div class="w-[0px] h-8 ml-20 bg-sky-800 text-sm font-semibold font-['Inter']">:</div>
+                        <div class="w-[500px] h-8 ml-20 text-zinc-400 text-sm font-semibold font-['Inter']">Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:</div>
+                        <center><div class="w-[63px] h-[32px] ml-16 mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div></div></center>
+
+
+                    </div>
+
+
+
+        </footer>
+        <!--termina Joel-->
+
+    </body>
+</html>
 
 
 
