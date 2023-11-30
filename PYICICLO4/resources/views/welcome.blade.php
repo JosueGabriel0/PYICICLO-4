@@ -218,72 +218,65 @@
         <!--empieza Joel-->
         <footer>
 
-        </footer>
-        <!--termina Joel-->
+            <div class="flex w-full h-80 mt-2 aspect-square bg-sky-900 ">
 
-    </body>
-</html>
+                <div class="w-24 h-20 aspect-square bg-yellow-400 mt-7 ml-32"></div>
+                <p class="text-4xl ml-36 mt-11 absolute text-white font-bold font-['Inter']">Licenciamiento y acreditación</p>
 
-<div>
-
-
-    <div class="w-[503px] h-[57px] left-[280px] top-[545px] absolute text-white text-3xl font-bold font-['Inter']">Licenciamiento y acreditación</div>
-
-    <div class="w-[108px] h-5 left-[308px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Sobre la UPeU</div>
-    <div class="w-[108px] h-[22px] left-[306px] top-[857px] absolute text-center text-white text-sm font-medium font-['Inter']">Misión y Visión </div>
-    <div class="w-44 h-[18px] left-[274px] top-[897px] absolute text-center text-white text-sm font-medium font-['Inter']">Normatividad Institucional</div>
-    <div class="w-[102px] h-[19px] left-[306px] top-[935px] absolute text-center text-white text-sm font-medium font-['Inter']">Transparencia</div>
-    <div class="w-[113px] h-[19px] left-[306px] top-[974px] absolute text-center text-white text-sm font-medium font-['Inter']">Plan Estratégico</div>
-    <div class="w-[140px] h-4 left-[289px] top-[1010px] absolute text-center text-white text-sm font-medium font-['Inter']">Protocolos Covid- 19</div>
-
-    <div class="w-[89px] h-[21px] left-[900px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Facultades</div>
-    <div class="w-[159px] h-[22px] left-[850px] top-[857px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias Empresariales</div>
-    <div class="w-[209px] h-[18px] left-[825px] top-[897px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias Humanas y Educación</div>
-    <div class="w-[135px] h-[19px] left-[868px] top-[935px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias de la Salud</div>
-    <div class="w-[165px] h-[19px] left-[860px] top-[964px] absolute text-center text-white text-sm font-medium font-['Inter']">Ingeniería y Arquitectura</div>
-    <div class="w-[79px] h-4 left-[900px] top-[1000px] absolute text-center text-white text-sm font-medium font-['Inter']">Teología</div>
-
-    <div class="w-[69px] h-[21px] left-[1517px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Contacto</div>
-    <div class="w-[209px] h-4 left-[1437px] top-[850px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Lima: +51 1-6186300</div>
-    <div class="w-[223px] h-[18px] left-[1432px] top-[870px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Juliaca: +51 1-618632</div>
-    <div class="w-[243px] h-[19px] left-[1430px] top-[890px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Tarapoto: +51 1-6186303</div>
-    <div class="w-[131px] h-[19px] left-[1489px] top-[920px] absolute text-center text-white text-sm font-bold font-['Inter']">Correo Admisión</div>
-    <div class="w-[159px] h-4 left-[1475px] top-[950px] absolute text-center text-neutral-200 text-sm font-normal font-['Inter']">Informes@upeu.edu.pe</div>
-    <div class="w-[155px] h-[22px] left-[1479px] top-[980px] absolute text-center text-white text-sm font-medium font-['Inter']">Políticas de privacidad </div>
-    <div class="w-[223px] h-[18px] left-[1445px] top-[1010px] absolute text-center text-white text-sm font-medium font-['Inter']">Términos y condiciones de datos</div>
-</div>
-
-
-    <div class="ml-4">
-
-        <div class="w-full mt--2 h-24  bg-sky-900  ">
-
-
-            <div class="flex items-center justify-between">
-                <div class="w-[500px] h-8 ml-64 text-zinc-400 text-sm font-semibold font-['Inter']">
-                    Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:
+                <div class="flex justify-between items-center mt-28">
+                    <img class="w-26 h-20" src="{{ asset('storage/images/Top10.png') }}" />
+                <img class="w-26 h-20 ml-24" src="{{ asset('storage/images/Sunedu.png') }}" />
+                <img class="w-26 h-20 ml-24" src="{{ asset('storage/images/Sineace.png') }}" />
+                <img class="w-26 h-20 ml-24" src="{{ asset('storage/images/Agencia.png') }}" />
                 </div>
-                <div class="w-[40px] h-[32px] mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div>
-                <div class="flex space-x-4 ml-auto">
-                    <a href="https://www.facebook.com/campusjuliacaupeu/" target="_blank" class="text-blue-500">
-                        <i class="fab fa-facebook fa-2x mr-0 mt-8"></i>
-                    </a>
-                    <a href="https://www.instagram.com/upeucampusjuliaca/" target="_blank" class="text-black">
-                        <i class="fab fa-instagram fa-2x mr-0 mt-8"></i>
-                    </a>
-                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fupeujuliaca" target="_blank">
-                        <i class="fa-brands fa-x-twitter fa-2x mr-0 mt-8" style="color: #000000;"></i></a>
-                    <a href="https://www.youtube.com/channel/UC_JoTkUFsd9XJ9DPx7eE98A" target="_blank" class="text-red-500">
-                        <i class="fab fa-youtube fa-2x mr-96 mt-8"></i>
-                    </a>
-                </div>
+
             </div>
 
+        <div class="w-full h-96 aspect-square bg-slate-900">
+
+            <div class="flex justify-between">
 
 
 
+                <div class="text-center mt-10 ml-48">
+                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Sobre la UPeU</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Misión y Visión</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Normatividad Institucional</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Transparencia</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Plan Estratégico</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Protocolos Covid- 19</p></a>
+                </div>
 
-    </div>
+                <div class="text-center mt-10">
+                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Facultades</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Ciencias Empresariales</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias Humanas y Educación</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias de la Salud</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ingeniería y Arquitectura</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Teología</p></a>
+                </div>
+
+                <div class="text-center mt-10 mr-36">
+                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Contacto</p></a>
+                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-2">Campus Lima: +51 1-6186300</p></a>
+                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Juliaca: +51 1-618632</p></a>
+                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Tarapoto: +51 1-6186303</p></a>
+                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-2">Correo Admisión</p></a>
+                <a href=""><p class="text-neutral-200 text-lg font-normal font-['Inter'] mt-0">Informes@upeu.edu.pe</p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Políticas de privacidad </p></a>
+                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Términos y condiciones de datos</p></a>
+                <a href="" class="">
+                    <div class="ml-12 w-52 h-8 aspect-square bg-slate-900 border-2 border-yellow-400 hover:border-yellow-200 text-yellow-400  hover:text-yellow-200">
+                        <p class="m-1  text-sm font-medium font-['Inter']">LIBRO DE RECLAMACIONES</p>
+                    </div>
+                </a>
+                </div>
+
+
+
+            </div>
+
+        </div>
 
 
 
