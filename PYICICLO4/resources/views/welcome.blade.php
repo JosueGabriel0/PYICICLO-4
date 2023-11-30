@@ -264,19 +264,48 @@
 
 <div class="">
 
-        <div class="w-full ml-4 mr-4 h-96 mt--22 aspect-square bg-slate-900  "></div>
+        <div class="w-full ml-4 mr-4 h-96 mt--2 aspect-square bg-slate-900  "></div>
 
-        <div class="w-full ml-4 mr-4 h-32 mt--2 aspect-square bg-slate-900 "></div>
+        <div class="flex w-full ml-4 mr-4 h-32 mt--2 aspect-square bg-slate-900 ">
+            <div class="w-[500px] h-8 ml-20 bg-slate-900 text-sm font-semibold font-['Inter']">.</div>
+            <img class="w-[160px] h-[80px] ml-32" src="{{ asset('storage/images/upeu4.webp') }}" />
+            <img class="w-[310px] h-[66px] ml-48" src="{{ asset('storage/images/ead4.webp') }}" />
+        </div>
     </div>
 
-        <div>
-        <div class="w-full ml-4 mr-4 h-24 mt--2 aspect-square bg-sky-900  ">
-            <div class="w-[0px] h-8 ml-20 bg-sky-800 text-sm font-semibold font-['Inter']">:</div>
-            <div class="w-[500px] h-8 ml-20 text-zinc-400 text-sm font-semibold font-['Inter']">Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:</div>
-            <center><div class="w-[63px] h-[32px] ml-16 mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div></div></center>
 
 
-        </div>
+
+    <div class="ml-4">
+
+        <div class="w-full mt--2 h-24  bg-sky-900  ">
+
+
+            <div class="flex items-center justify-between">
+                <div class="w-[500px] h-8 ml-64 text-zinc-400 text-sm font-semibold font-['Inter']">
+                    Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:
+                </div>
+                <div class="w-[40px] h-[32px] mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div>
+                <div class="flex space-x-4 ml-auto">
+                    <a href="https://www.facebook.com/campusjuliacaupeu/" target="_blank" class="text-blue-500">
+                        <i class="fab fa-facebook fa-2x mr-0 mt-8"></i>
+                    </a>
+                    <a href="https://www.instagram.com/upeucampusjuliaca/" target="_blank" class="text-black">
+                        <i class="fab fa-instagram fa-2x mr-0 mt-8"></i>
+                    </a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fupeujuliaca" target="_blank">
+                        <i class="fa-brands fa-x-twitter fa-2x mr-0 mt-8" style="color: #000000;"></i></a>
+                    <a href="https://www.youtube.com/channel/UC_JoTkUFsd9XJ9DPx7eE98A" target="_blank" class="text-red-500">
+                        <i class="fab fa-youtube fa-2x mr-96 mt-8"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+    </div>
 
 
 
