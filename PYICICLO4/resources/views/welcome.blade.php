@@ -240,31 +240,31 @@
 
                 <div class="text-center mt-10 ml-48">
                 <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Sobre la UPeU</p>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Misión y Visión</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Normatividad Institucional</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Transparencia</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Plan Estratégico</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Protocolos Covid- 19</p></a>
+                <a href="https://upeu.edu.pe/mision-y-vision/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-8">Misión y Visión</p></a>
+                <a href="https://upeu.edu.pe/normatividad-institucional/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Normatividad Institucional</p></a>
+                <a href="https://upeu.edu.pe/transparencia/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Transparencia</p></a>
+                <a href="https://upeu.edu.pe/plan-estrategico/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Plan Estratégico</p></a>
+                <a href="https://upeu.edu.pe/protocolos-covid-19/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Protocolos Covid- 19</p></a>
                 </div>
 
                 <div class="text-center mt-10">
                 <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Facultades</p>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Ciencias Empresariales</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias Humanas y Educación</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias de la Salud</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ingeniería y Arquitectura</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Teología</p></a>
+                <a href="https://upeu.edu.pe/fce/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-8">Ciencias Empresariales</p></a>
+                <a href="https://upeu.edu.pe/facihed/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias Humanas y Educación</p></a>
+                <a href="https://upeu.edu.pe/fsalud/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias de la Salud</p></a>
+                <a href="https://upeu.edu.pe/fia/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ingeniería y Arquitectura</p></a>
+                <a href="https://upeu.edu.pe/teologia/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Teología</p></a>
                 </div>
 
                 <div class="text-center mt-10 mr-36">
                 <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Contacto</p>
-                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-2">Campus Lima: +51 1-6186300</p></a>
-                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Juliaca: +51 1-618632</p></a>
-                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Tarapoto: +51 1-6186303</p></a>
-                <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-2">Correo Admisión</p></a>
-                <a href=""><p class="text-neutral-200 text-lg font-normal font-['Inter'] mt-0">Informes@upeu.edu.pe</p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Políticas de privacidad </p></a>
-                <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Términos y condiciones de datos</p></a>
+                <a href="https://upeu.edu.pe/" target="_blank"><p class="text-white text-lg font-bold font-['Inter'] mt-2">Campus Lima: +51 1-6186300</p></a>
+                <a href="https://upeu.edu.pe/juliaca/" target="_blank"><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Juliaca: +51 1-618632</p></a>
+                <a href="https://upeu.edu.pe/tarapoto/" target="_blank"><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Tarapoto: +51 1-6186303</p></a>
+                <a href="https://admision.upeu.edu.pe/" target="_blank"><p class="text-white text-lg font-bold font-['Inter'] mt-2">Correo Admisión</p></a>
+                <a href="https://upeu.edu.pe/" target="_blank"><p class="text-neutral-200 text-lg font-normal font-['Inter'] mt-0">Informes@upeu.edu.pe</p></a>
+                <a href="https://upeu.edu.pe/politica-de-privacidad/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Políticas de privacidad </p></a>
+                <a href="https://upeu.edu.pe/terminos-y-condiciones-de-uso/" target="_blank"><p class="text-white text-lg font-medium font-['Inter'] mt-4">Términos y condiciones de datos</p></a>
                 <a href="" class="">
                     <div class="ml-12 w-52 h-8 aspect-square bg-slate-900 border-2 border-yellow-400 hover:border-yellow-200 text-yellow-400  hover:text-yellow-200">
                         <p class="m-1  text-sm font-medium font-['Inter']">LIBRO DE RECLAMACIONES</p>
