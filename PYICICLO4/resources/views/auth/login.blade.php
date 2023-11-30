@@ -10,7 +10,19 @@
 
             <div class="w-[1440px] h-[1024px] relative bg-white">
                 <div class="w-[1440px] h-[1024px] left-0 top-0 absolute bg-gradient-to-b from-sky-900 via-cyan-900 to-sky-900"></div>
-                <div class="w-[22px] h-[25px] left-0 top-[3px] absolute bg-yellow-400"></div>
+                <div class="w-[40px] h-[40px] left-1000 top-[3px] ml-46 mr-4 absolute bg-yellow-400"></div>
+                <div class="w-[200px] left-500 top-[15px] ml-10 mr-10 absolute"><img class="" src="{{ asset('storage/images/logoupeu.webp') }}" /></div>
+
+                <div class="top-[110px] ml-16 absolute font-['jsMath-cmbx10']" style="font-size: 40px; color: white;">
+                    SISTEMA PARA EL DESARROLLO DE PRACTICAS PRE PROFESIONALES
+                </div>
+
+                <div class="flex justify-between">
+                    <div class="w-[410px] top-[956px] absolute left-0 "><img class="" src="{{ asset('storage/images/edad2.png') }}" /></div>
+                    <div class="w-[420px] top-[956px] absolute right-0"><img class="" src="{{ asset('storage/images/se.png') }}" /></div>
+                </div>
+
+                <img class="w-[50px] h-[50px] left-[330px] top-[355px] absolute rounded-[10px]" src="{{ asset('storage/images/upeu22.png') }}" />
                 <div class="w-[980px] h-[689px] left-[208px] top-[181px] absolute bg-zinc-300 rounded-[20px]"></div>
                 <!--todo el cuadro-->
                 <div class="left-[341px] top-[375px] absolute text-black text-base font-bold font-['Inter']">
@@ -66,8 +78,8 @@
                 <div class="left-[299px] top-[811px] absolute text-black text-base font-bold font-['Inter']">Don´t have an account</div>
                 <img class="w-[405px] h-[244px] left-[730px] top-[268px] absolute rounded-[20px]" src="{{ asset('storage/images/uni22.png') }}" />
                 <img class="w-[405px] h-[244px] left-[730px] top-[555px] absolute rounded-[20px]" src="{{ asset('storage/images/upeu22.png') }}" />
-                <div class="w-[621px] h-[200px] left-[433px] top-[76px] absolute"><span style="text-white text-[35px] font-bold font-['Inter']">SISTEMA PARA EL DESARROLLO DE PRACTICAS PRE PROFESIONALES</span><span style="text-white text-[10px] font-normal font-['Inter']"></span></div>
-                <h1 class="w-500">holadfvbkdfngksfn</h1>
+
+
               </div>
 
         </x-slot>
