@@ -22,9 +22,11 @@
         <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
 
         <!--Josue-->
-        <nav class="flex responsive flex-row md:flex-col">
 
-            <div class="w-1/5 h-16 aspect-square absolute bg-sky-900 border-b-4 border-b-yellow-400">
+
+    <nav class="flex justify-between">
+
+            <div class="w-1/5 h-16 aspect-square bg-sky-900 border-b-4 border-b-yellow-400">
                 <div class="w-4 h-4 left-0 top-0 bg-yellow-400"></div>
 
                 <a href="{{ url('/') }}">
@@ -34,7 +36,7 @@
                 </a>
             </div>
 
-            <div class="flex w-4/5 h-16 aspect-square bg-gray-200 lg:ml-auto border-b-4 border-b-yellow-400">
+        <div class="flex w-4/5 h-16 aspect-square bg-gray-200 lg:ml-auto border-b-4 border-b-yellow-400">
 
                 <div class="absolute">
                     <a href="{{ url('/') }}">
@@ -74,15 +76,17 @@
                 @endif
             </div>
 
-        </div>
+            </div>
 
         </div>
 
-        </nav>
+    </nav>
+
+
         <!--termina Josue-->
 
         <!--empieza Josue-->
-        <body class="flex responsive flex-row md:flex-col">
+        <body class="w-full md:flex-col flex justify-between">
 
             <head>
             <div class="w-100 ml-4 mr-4 h-16 mt-2 rounded-lg aspect-square bg-sky-900 border-4 border-yellow-400 text-center text-white font-bold font-['Inter'] text-3xl">
