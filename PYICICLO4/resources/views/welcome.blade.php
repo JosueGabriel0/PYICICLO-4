@@ -122,22 +122,22 @@
                             </div>
                             <!-- Item 2 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{ asset('storage/images/Prueba.png') }}"
+                                <img src="{{ asset('storage/images/Carrusel_Item_2.png') }}"
                                     class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 3 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="https://upeujuliaca.files.wordpress.com/2011/11/img_6416.jpg"
+                                <img src="{{ asset('storage/images/Carrusel_Item_3.png') }}"
                                     class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 4 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/docs/images/carousel/carousel-4.svg"
+                                <img src="{{ asset('storage/images/Carrusel_Item_4.png') }}"
                                     class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 5 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/docs/images/carousel/carousel-5.svg"
+                                <img src="{{ asset('storage/images/Carrusel_Item_5.png') }}"
                                     class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             </div>
@@ -279,36 +279,36 @@
         </div>
         <!--termina Joel-->
 
-        <div class="">
+        <div class="w-full h-14 aspect-square bg-sky-900">
 
-            <div class="w-full mt--2 h-24  bg-sky-900  ">
+            <div class="flex justify-between">
 
 
-                <div class="flex items-center justify-between">
-                    <div class="w-[500px] h-8 ml-64 text-zinc-400 text-sm font-semibold font-['Inter']">
+                    <p class="text-zinc-400 text-sm font-semibold font-['Inter'] ml-44 mt-5">
                         Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:
+                    </p>
+
+
+
+                    <a href="/"><p class="text-yellow-400 hover:text-yellow-200 text-xl font-semibold font-['Inter'] mr-80 mt-4">UPeU</p></a>
+
+
+                    <div class="mr-4 ">
+
+                        <a href="https://www.facebook.com/campusjuliacaupeu/" target="_blank"><i class="fa-brands fa-facebook fa-2x mr-4 mt-3" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/upeucampusjuliaca/" target="_blank"><i class="fa-brands fa-instagram fa-2x mr-4 mt-3" style="color: #ffffff;"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fupeujuliaca" target="_blank"><i class="fa-brands fa-x-twitter fa-2x mr-4 mt-3" style="color: #ffffff;"></i></a>
+                        <a href="https://www.youtube.com/channel/UC_JoTkUFsd9XJ9DPx7eE98A" target="_blank"><i class="fa-brands fa-youtube fa-2x mr-5 mt-3" style="color: #ffffff;"></i></a>
+
                     </div>
-                    <div class="w-[40px] h-[32px] mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div>
-                    <div class="flex space-x-4 ml-auto">
-                        <a href="https://www.facebook.com/campusjuliacaupeu/" target="_blank" class="text-blue-500">
-                            <i class="fab fa-facebook fa-2x mr-0 mt-8"></i>
-                        </a>
-                        <a href="https://www.instagram.com/upeucampusjuliaca/" target="_blank" class="text-black">
-                            <i class="fab fa-instagram fa-2x mr-0 mt-8"></i>
-                        </a>
-                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fupeujuliaca" target="_blank">
-                            <i class="fa-brands fa-x-twitter fa-2x mr-0 mt-8" style="color: #000000;"></i></a>
-                        <a href="https://www.youtube.com/channel/UC_JoTkUFsd9XJ9DPx7eE98A" target="_blank" class="text-red-500">
-                            <i class="fab fa-youtube fa-2x mr-96 mt-8"></i>
-                        </a>
-                    </div>
+
                 </div>
 
 
 
 
 
-        </div>
+
 
 
 
