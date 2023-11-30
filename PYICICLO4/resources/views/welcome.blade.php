@@ -48,10 +48,10 @@
 
                 <div class="mr-4 ">
 
-                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-facebook fa-2x mr-4 mt-4" style="color: #007bff;"></i></a>
-                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-instagram fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
-                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-x-twitter fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
-                    <a href="https://fontawesome.com/search?q=facebook&o=r" target="_blank"><i class="fa-brands fa-youtube fa-2x mr-8 mt-4" style="color: #ff0000;"></i></a>
+                    <a href="https://www.facebook.com/campusjuliacaupeu/" target="_blank"><i class="fa-brands fa-facebook fa-2x mr-4 mt-4" style="color: #007bff;"></i></a>
+                    <a href="https://www.instagram.com/upeucampusjuliaca/" target="_blank"><i class="fa-brands fa-instagram fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fupeujuliaca" target="_blank"><i class="fa-brands fa-x-twitter fa-2x mr-4 mt-4" style="color: #000000;"></i></a>
+                    <a href="https://www.youtube.com/channel/UC_JoTkUFsd9XJ9DPx7eE98A" target="_blank"><i class="fa-brands fa-youtube fa-2x mr-8 mt-4" style="color: #ff0000;"></i></a>
 
                 </div>
 
