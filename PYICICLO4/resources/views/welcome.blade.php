@@ -266,7 +266,7 @@
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Políticas de privacidad </p></a>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Términos y condiciones de datos</p></a>
                 <a href="" class="">
-                    <div class="ml-12 w-52 h-8 aspect-square bg-slate-900 border-2 border-yellow-400 hover:border-yellow-200 text-yellow-400  hover:text-yellow-200">
+                    <div class="w-52 h-8 aspect-square bg-slate-900 border-2 border-yellow-400 hover:border-yellow-200 text-yellow-400  hover:text-yellow-200">
                         <p class="m-1  text-sm font-medium font-['Inter']">LIBRO DE RECLAMACIONES</p>
                     </div>
                 </a>
