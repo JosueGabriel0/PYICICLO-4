@@ -24,7 +24,6 @@
 
 
 
-
             <!-- Page Content -->
             <main>
                 {{ $slot }}

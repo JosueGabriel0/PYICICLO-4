@@ -32,4 +32,6 @@ Route::middleware([
 
     Route::get('/prueba', Prueba::class);
     Route::get('/prueba2', Prueba2::class);
+
+    Route::get('/prueba2', Prueba2::class);
 });
