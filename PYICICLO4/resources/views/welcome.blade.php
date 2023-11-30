@@ -95,40 +95,54 @@
             <body>
                 <div class="w-100 ml-4 mr-4 h-80 mt-2 rounded-lg aspect-square bg-sky-900 border-4 border-yellow-400">
 
-                    <!--carrusel-->
-                    <div class="flex justify-center items-center">
+                    <div class="flex justify-between">
 
-                        <div id="default-carousel" class="relative w-1/2" data-carousel="slide">
+                    <!--cuadro 1-->
+                    <div class=" text-center w-68 h-72 ml-4 mt-3 rounded-lg aspect-square bg-white border-4 border-yellow-400">
+
+                        <i class="fa-solid fa-bullseye fa-3x mt-4" style="color: #0084ff;"></i>
+                        <p class="mt-4 text-xl">
+                            <b>Misión</b>
+                            <div class="text-justify text-xs ml-2 mr-2 mt-2">
+                            <p>Ser reconocidos por la Iglesia Adventista del Séptimo día y la sociedad como líderes en el desarrollo de investigaciones cientificas y tecnológicas en todas las áreas de las ciencias sobre la base de valores cristianos, servicio y en armonía con el medio ambiente, para contribuir a la transformación de una sociedad justa y equitativa.</p>
+                            </div>
+                        </p>
+
+                    </div>
+                    <!--Fin de columna 1-->
+
+                    <!--carrusel-->
+                    <div id="default-carousel" class="relative w-1/2" data-carousel="slide">
                         <!-- Carousel wrapper -->
                         <div class="relative h-56 overflow-hidden rounded-lg md:h-72">
                             <!-- Item 1 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{ asset('storage/images/Logo_upeu.png') }}"
-                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                <img src="{{ asset('storage/images/Carrusel_Item_1.png') }}"
+                                    class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 2 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{ asset('storage/images/Prueba_carrusel.png') }}"
-                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                <img src="{{ asset('storage/images/Prueba.png') }}"
+                                    class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 3 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/docs/images/carousel/carousel-3.svg"
-                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                <img src="https://upeujuliaca.files.wordpress.com/2011/11/img_6416.jpg"
+                                    class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 4 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                 <img src="/docs/images/carousel/carousel-4.svg"
-                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                    class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
                             <!-- Item 5 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                 <img src="/docs/images/carousel/carousel-5.svg"
-                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                    class="border-4 border-yellow-400 rounded-lg absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
-                        </div>
-                        <!-- Slider indicators -->
-                        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                            </div>
+                            <!-- Slider indicators -->
+                            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
                             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
                                 data-carousel-slide-to="0"></button>
                             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
@@ -139,9 +153,9 @@
                                 data-carousel-slide-to="3"></button>
                             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
                                 data-carousel-slide-to="4"></button>
-                        </div>
-                        <!-- Slider controls -->
-                        <button type="button"
+                            </div>
+                         <!-- Slider controls -->
+                            <button type="button"
                             class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                             data-carousel-prev>
                             <span
@@ -153,12 +167,12 @@
                                 </svg>
                                 <span class="sr-only">Previous</span>
                             </span>
-                        </button>
-                        <button type="button"
-                            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                            data-carousel-next>
-                            <span
-                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50                   dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            </button>
+                            <button type="button"
+                             class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                             data-carousel-next>
+                             <span
+                                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50                   dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                                 <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -166,19 +180,35 @@
                                 </svg>
                                 <span class="sr-only">Next</span>
                             </span>
-                        </button>
-                        </div>
+                            </button>
                     </div>
                     <!--Fin de carrusel-->
 
-                    <!--columna 1-->
+                    <!--cuadro 2-->
+                    <div class=" text-center w-68 h-72 mr-4 mt-3 rounded-lg aspect-square bg-white border-4 border-yellow-400">
+                        <i class="fa-solid fa-eye fa-3x mt-4" style="color: #007bff;"></i>
+                        <p class="mt-4 text-xl">
+                            <b>Visión</b>
+                            <div class="text-justify text-xs ml-2 mr-2 mt-2">
+                            <p>Promover, gestionar y apoyar el desarrollo de investigadores capaces de generar conocimientos, en todas las áreas de las ciencias, desde una cosmovisión cristiana, preparando una comunidad de expertos y lideres comprometidos con la Iglesia Adventista del Séptimo Día y la sociedad.</p>
+                            </div>
+                        </p>
+                    </div>
+                    <!--Fin de columna 2-->
+
+                    </div>
 
                 </div>
 
+                       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+                   </body>
 
 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
-            </body>
+
+
+
+
+
 
 
 
