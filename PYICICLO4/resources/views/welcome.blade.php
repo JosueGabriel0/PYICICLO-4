@@ -236,10 +236,10 @@
 
             <div class="flex justify-between">
 
-
+        <!--termina Joel-->
 
                 <div class="text-center mt-10 ml-48">
-                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Sobre la UPeU</p></a>
+                <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Sobre la UPeU</p>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Misión y Visión</p></a>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Normatividad Institucional</p></a>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Transparencia</p></a>
@@ -248,7 +248,7 @@
                 </div>
 
                 <div class="text-center mt-10">
-                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Facultades</p></a>
+                <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Facultades</p>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-8">Ciencias Empresariales</p></a>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias Humanas y Educación</p></a>
                 <a href=""><p class="text-white text-lg font-medium font-['Inter'] mt-4">Ciencias de la Salud</p></a>
@@ -257,7 +257,7 @@
                 </div>
 
                 <div class="text-center mt-10 mr-36">
-                <a href=""><p class="text-white text-2xl font-bold font-['Inter'] underline">Contacto</p></a>
+                <p class="text-white text-2xl font-bold font-['Inter'] underline hover:text-yellow-400">Contacto</p>
                 <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-2">Campus Lima: +51 1-6186300</p></a>
                 <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Juliaca: +51 1-618632</p></a>
                 <a href=""><p class="text-white text-lg font-bold font-['Inter'] mt-0">Campus Tarapoto: +51 1-6186303</p></a>
@@ -277,11 +277,7 @@
             </div>
 
         </div>
-
-
-
-
-
+        <!--termina Joel-->
 
         <div class="">
 
