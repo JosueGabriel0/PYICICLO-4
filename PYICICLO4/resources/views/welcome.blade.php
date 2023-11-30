@@ -188,19 +188,67 @@
         <!--empieza Joel-->
         <footer>
 
-            <div class="w-[1440px] h-[1024px] relative bg-white">
-                <div class="w-[1440px] h-[289px] left-0 top-0 absolute bg-sky-600"></div>
-                <div class="w-[1052px] h-[163px] left-[269px] top-[7px] absolute text-yellow-400 text-[100px] font-bold font-['Hepta Slab']">PRACTICAS PRE PROFESIONALES </div>
-
-
-              </div>
-
-        <center>
-            <img width="990px" src="https://upeu.edu.pe/wp-content/uploads/2023/07/1-alumnos-scaled.webp" alt="Descripción de la imagen">
-            </center>
-
         </footer>
         <!--termina Joel-->
 
     </body>
 </html>
+
+<div>
+
+
+    <div class="w-[503px] h-[57px] left-[280px] top-[545px] absolute text-white text-3xl font-bold font-['Inter']">Licenciamiento y acreditación</div>
+
+    <div class="w-[108px] h-5 left-[308px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Sobre la UPeU</div>
+    <div class="w-[108px] h-[22px] left-[306px] top-[857px] absolute text-center text-white text-sm font-medium font-['Inter']">Misión y Visión </div>
+    <div class="w-44 h-[18px] left-[274px] top-[897px] absolute text-center text-white text-sm font-medium font-['Inter']">Normatividad Institucional</div>
+    <div class="w-[102px] h-[19px] left-[306px] top-[935px] absolute text-center text-white text-sm font-medium font-['Inter']">Transparencia</div>
+    <div class="w-[113px] h-[19px] left-[306px] top-[974px] absolute text-center text-white text-sm font-medium font-['Inter']">Plan Estratégico</div>
+    <div class="w-[140px] h-4 left-[289px] top-[1010px] absolute text-center text-white text-sm font-medium font-['Inter']">Protocolos Covid- 19</div>
+
+    <div class="w-[89px] h-[21px] left-[900px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Facultades</div>
+    <div class="w-[159px] h-[22px] left-[850px] top-[857px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias Empresariales</div>
+    <div class="w-[209px] h-[18px] left-[825px] top-[897px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias Humanas y Educación</div>
+    <div class="w-[135px] h-[19px] left-[868px] top-[935px] absolute text-center text-white text-sm font-medium font-['Inter']">Ciencias de la Salud</div>
+    <div class="w-[165px] h-[19px] left-[860px] top-[964px] absolute text-center text-white text-sm font-medium font-['Inter']">Ingeniería y Arquitectura</div>
+    <div class="w-[79px] h-4 left-[900px] top-[1000px] absolute text-center text-white text-sm font-medium font-['Inter']">Teología</div>
+
+    <div class="w-[69px] h-[21px] left-[1517px] top-[818px] absolute text-white text-[15px] font-bold font-['Inter'] underline">Contacto</div>
+    <div class="w-[209px] h-4 left-[1437px] top-[850px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Lima: +51 1-6186300</div>
+    <div class="w-[223px] h-[18px] left-[1432px] top-[870px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Juliaca: +51 1-618632</div>
+    <div class="w-[243px] h-[19px] left-[1430px] top-[890px] absolute text-center text-white text-sm font-bold font-['Inter']">Campus Tarapoto: +51 1-6186303</div>
+    <div class="w-[131px] h-[19px] left-[1489px] top-[920px] absolute text-center text-white text-sm font-bold font-['Inter']">Correo Admisión</div>
+    <div class="w-[159px] h-4 left-[1475px] top-[950px] absolute text-center text-neutral-200 text-sm font-normal font-['Inter']">Informes@upeu.edu.pe</div>
+    <div class="w-[155px] h-[22px] left-[1479px] top-[980px] absolute text-center text-white text-sm font-medium font-['Inter']">Políticas de privacidad </div>
+    <div class="w-[223px] h-[18px] left-[1445px] top-[1010px] absolute text-center text-white text-sm font-medium font-['Inter']">Términos y condiciones de datos</div>
+</div>
+
+<div class="flex w-full ml-4 mr-4 h-64 mt-2 aspect-square bg-sky-900 ">
+    <div class="w-[74px] h-[60px] bg-yellow-400 mt-7 ml-32"></div>
+    <img class="w-[150px] h-[82px] mt-32 ml-24" src="{{ asset('storage/images/top103.png') }}" />
+    <img class="w-[150px] h-[78px] mt-32 ml-64" src="{{ asset('storage/images/sunedu3.png') }}" />
+    <img class="w-[220px] h-[120px] mt-28 ml-64" src="{{ asset('storage/images/sineace3.png') }}" />
+    <img class="w-[180px] h-[105px] mt-32 ml-64" src="{{ asset('storage/images/aaa.png') }}" />
+</div>
+
+
+<div class="">
+
+        <div class="w-full ml-4 mr-4 h-96 mt--22 aspect-square bg-slate-900  "></div>
+
+        <div class="w-full ml-4 mr-4 h-32 mt--2 aspect-square bg-slate-900 "></div>
+    </div>
+
+        <div>
+        <div class="w-full ml-4 mr-4 h-24 mt--2 aspect-square bg-sky-900  ">
+            <div class="w-[0px] h-8 ml-20 bg-sky-800 text-sm font-semibold font-['Inter']">:</div>
+            <div class="w-[500px] h-8 ml-20 text-zinc-400 text-sm font-semibold font-['Inter']">Copyright © UPeU 2023. Todos los derechos son reservados — Implementados por:</div>
+            <center><div class="w-[63px] h-[32px] ml-16 mt-0 text-yellow-400 text-xl font-semibold font-['Inter']">UPeU</div></div></center>
+
+
+        </div>
+
+
+
+
+
