@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Inicio;
+use App\Livewire\MPROCONVPTL;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Prueba;
 use App\Livewire\Prueba2;
@@ -32,4 +33,5 @@ Route::middleware([
 
     Route::get('/prueba', Prueba::class);
     Route::get('/prueba2', Prueba2::class);
+    Route::get('/M_PRO_CONV_PTL', MPROCONVPTL::class);
 });
