@@ -31,6 +31,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
+    Route::get('/inicio', Inicio::class);
     Route::get('/prueba', Prueba::class);
     Route::get('/prueba2', Prueba2::class);
     Route::get('/M_PRO_CONV_PTL', MPROCONVPTL::class);
