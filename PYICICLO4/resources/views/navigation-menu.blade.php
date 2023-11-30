@@ -1,14 +1,20 @@
-<nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
+<nav x-data="{ open: false }" class="bg-sky-900 border-r-4 border-r-yellow-400 w-80 h-full" >
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+    <div class="max-w-7xl sm:px-0 lg:px-0">
+        <div class="flex flex-col">
+
             <div class="flex">
+                <div class="w-4 h-4 bg-yellow-400"></div>
+
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
+                <div class="shrink-0 flex items-center ml-16">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-mark class="block h-9 w-auto" />
+                        <img src="{{ asset('storage/images/Logo_upeu.png') }}" class="w-40 h-15 mt-0">
                     </a>
                 </div>
+            </div>
+
+            <div class="text-neutral-400 text-xl font-bold font-['Inter'] ml-2">Principal</div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
@@ -16,7 +22,7 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
-            </div>
+
 
             <div class="hidden sm:flex sm:items-center sm:ms-6">
                 <!-- Teams Dropdown -->
