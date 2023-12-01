@@ -2,7 +2,7 @@
     <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
 
     <!--Nav vertical-->
-    <div class="flex flex-col w-72 bg-slate-400">
+    <div class="flex flex-col w-1/5 bg-slate-400">
         <div class="h-full bg-sky-900 border-r-4 border-r-yellow-400">
 
             <!-- Contenido -->
@@ -22,7 +22,7 @@
                                 style="color: #ffffff;"></i></a>
                         <a href="/inicio">
                             <p
-                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-1 mr-44 mt-5">
+                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] mr-40 mt-5">
                                 Inicio</p>
                         </a>
                     </div>
@@ -32,7 +32,7 @@
                                 style="color: #ffffff;"></i></a>
                         <a href="/inicio">
                             <p
-                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-5 mt-5">
+                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-4 mt-5">
                                 Modulo de propuestas de convocatoria</p>
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                                 style="color: #ffffff;"></i></a>
                         <a href="/inicio">
                             <p
-                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-12 mt-5">
+                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-4 mt-5">
                                 Modulo de cartas de presentación</p>
                         </a>
                     </div>
