@@ -28,9 +28,9 @@
                     </div>
 
                     <div class="flex justify-between">
-                        <a href="/inicio" class="ml-2 mt-8"><i class="fa-solid fa-file fa-2x"
+                        <a href="/modulconvpos" class="ml-2 mt-8"><i class="fa-solid fa-file fa-2x"
                                 style="color: #ffffff;"></i></a>
-                        <a href="/inicio">
+                        <a href="/modulconvpos">
                             <p
                                 class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-4 mt-5">
                                 Modulo de propuestas de convocatoria</p>
@@ -46,6 +46,16 @@
                             <p
                                 class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-9 mt-5">
                                 Modulo de cartas de presentación</p>
+                        </a>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <a href="/crudempresa" class="ml-2 mt-8"><i class="fa-solid fa-file fa-2x"
+                                style="color: #ffffff;"></i></a>
+                        <a href="/crudempresa">
+                            <p
+                                class="text-white border-b-4 border-b-yellow-400 hover:border-b-yellow-50 text-lg font-bold font-['Inter'] ml-4 mr-14 mt-5">
+                                Gestionar sistema</p>
                         </a>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Crudempresa;
 use App\Livewire\Inicio;
 use App\Livewire\Modulconvpos;
 use Illuminate\Support\Facades\Route;
@@ -35,4 +36,5 @@ Route::middleware([
     Route::get('/prueba', Prueba::class);
     Route::get('/prueba2', Prueba2::class);
     Route::get('/modulconvpos', Modulconvpos::class);
+    Route::get('/crudempresa', Crudempresa::class);
 });
