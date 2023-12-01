@@ -40,7 +40,7 @@
 
                 <div class="absolute">
                     <a href="{{ url('/') }}">
-                        <div class="mt-3 ml-8 text-sky-900 text-3xl font-bold font-['Inter'] border-b-4 border-yellow-400 hover:border-sky-900">Inicio
+                        <div class="mt-3 ml-8 text-sky-900 text-3xl font-bold font-['Inter'] border-b-4 border-yellow-400 hover:border-sky-900">Bienvenida
                         </div>
 
                     </a>
