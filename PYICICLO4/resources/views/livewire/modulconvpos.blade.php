@@ -189,19 +189,15 @@
             @vite('resources/css/app.css')
             <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
 
-            <!--Josue-->
+            <!---->
 
 
 
 
 
-            <!--termina Josue-->
+            <!--termina joel -->
 
-            <!--empieza Josue-->
-
-            <body class="w-full md:flex-col flex justify-between">
-
-                <head>
+            <!--empieza joel
                     <div
                         class="w-100 ml-4 mr-4 h-14 mt-2 rounded-lg aspect-square bg-sky-900 border-4 border-yellow-400 text-center text-white font-bold font-['Inter'] text-2xl">
                         <div class="mt-2">
@@ -349,7 +345,7 @@
 
 
             </body>
-            <!--termina Josue-->
+            <!--termina joel-->
 
             <!--empieza Joel-->
             <footer>

@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Models\Empresa;
+use Illuminate\Http\Request;
 use Livewire\Component;
 
 class Crudempresa extends Component
@@ -100,5 +101,41 @@ class Crudempresa extends Component
 
         $this->cerrarModal();
         $this->limpiarCampos();
+    }
+
+    public function store(Request $request)
+    {
+
+        $campos = [
+            'empresa_nombre' => 'required|string|max:100',
+            'empresa_tipo_de_industria' => 'required|string|max:100',
+            'empresa_descripcion' => 'required|string|max:100',
+            'empresa_correo_electronico' => 'required|string|max:100',
+            'empresa_numero_de_telefono' => 'required|string|max:100',
+            'empresa_direccion_de_sedes' => 'required|string|max:100',
+            'empresa_requisitos_para_estudiantes_practicantes' => 'required|string|max:100',
+            'empresa_telefono_del_representante' => 'required|string|max:100',
+
+
+        ];
+        $mensaje = [
+            'empresa_nombre.required' => 'El nombre es requerido',
+            'empresa_tipo_de_industria.required' => 'El tipo de industria es requerida',
+            'empresa_descripcion.required' => 'La descripcion es requerida',
+            'empresa_correo_electronico.required' => 'El correo es requerido',
+            'empresa_numero_de_telefono.required' => 'El telefono es requerido',
+            'empresa_direccion_de_sedes.required' => 'Las direcciones de sedes son requeridas',
+            'empresa_requisitos_para_estudiantes_practicantes.required' => 'Los rquisitos para estudiantes practicantes requerido',
+            'empresa_telefono_del_representante.required' => 'El telefono del representante del representante requerido'
+        ];
+
+        $this->validate($request, $campos, $mensaje);
+
+        $datosempresa = request()->except('_token');
+
+        Empresa::insert($datosempresa);
+
+        //return response()->json($datosinstitucion);
+        return redirect('livewire.crudempresa')->with('mensaje', 'Empleado agregado con éxito');
     }
 }

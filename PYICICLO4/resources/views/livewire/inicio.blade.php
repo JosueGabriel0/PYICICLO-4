@@ -199,15 +199,15 @@
             @vite('resources/css/app.css')
             <script src="https://kit.fontawesome.com/bf87075671.js" crossorigin="anonymous"></script>
 
-            <!--Josue-->
+            <!--Joel-->
 
 
 
 
 
-            <!--termina Josue-->
+            <!--termina Joel-->
 
-            <!--empieza Josue-->
+            <!--empieza Joel-->
 
             <body class="w-full md:flex-col flex justify-between">
 
@@ -359,7 +359,7 @@
 
 
             </body>
-            <!--termina Josue-->
+            <!--termina Joel-->
 
             <!--empieza Joel-->
             <footer>
