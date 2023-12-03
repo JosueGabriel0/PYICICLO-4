@@ -21,6 +21,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_nombre" wire:model="empresa_nombre" placeholder="Poner el nomnbre de la empresa">
+                                        @error('empresa_nombre') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -31,6 +32,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_tipo_de_industria" wire:model="empresa_tipo_de_industria" placeholder="Poner el tipo de industria">
+                                        @error('empresa_tipo_de_industria') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -41,6 +43,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_descripcion" wire:model="empresa_descripcion" placeholder="Poner la descripcion de la empresa">
+                                        @error('empresa_descripcion') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -51,6 +54,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_correo_electronico" wire:model="empresa_correo_electronico" placeholder="Poner el correo electronico de la empresa">
+                                        @error('empresa_correo_electronico') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -61,6 +65,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_numero_de_telefono" wire:model="empresa_numero_de_telefono" placeholder="Poner el numero de telefono de la empresa">
+                                        @error('empresa_numero_de_telefono') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -71,6 +76,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_direccion_de_sedes" wire:model="empresa_direccion_de_sedes" placeholder="Poner las direcciones de las sedes">
+                                        @error('empresa_direccion_de_sedes') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -81,6 +87,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_requisitos_para_estudiantes_practicantes" wire:model="empresa_requisitos_para_estudiantes_practicantes" placeholder="Poner requisitos para estudiantes practicantes">
+                                        @error('empresa_requisitos_para_estudiantes_practicantes') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -91,6 +98,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_area_de_pracicas" wire:model="empresa_area_de_pracicas" placeholder="Poner el area de practicas">
+                                        @error('empresa_area_de_pracicas') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -101,6 +109,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_nombre_representante_encargado_de_PPP" wire:model="empresa_nombre_representante_encargado_de_PPP" placeholder="Poner el nombre del representante">
+                                        @error('empresa_nombre_representante_encargado_de_PPP') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -111,6 +120,7 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_cargo_representante_encargado_de_PPP" wire:model="empresa_cargo_representante_encargado_de_PPP" placeholder="Poner cargo del representante">
+                                        @error('empresa_cargo_representante_encargado_de_PPP') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
@@ -121,16 +131,17 @@
                                     <input type="text"
                                         class="shadow appearance-none border rounded mt-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                         id="empresa_telefono_del_representante" wire:model="empresa_telefono_del_representante" placeholder="Poner el telefono del representante">
+                                        @error('empresa_telefono_del_representante') <span class="text-red-500">{{ $message }}</span> @enderror
                                 </div>
                             </div>
 
                         </div>
                         <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-                            <!-- Subscribe button -->
+                            <!--Boton de guardar-->
                             <button wire:click.prevent="guardar()" type="button"
                                 class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm">
                                 Guardar </button>
-                            <!-- Cancel button -->
+                            <!--Boton de cancelar-->
                             <button wire:click="cerrarModal()" type="button"
                                 class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
                                 Cancelar </button>

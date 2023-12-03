@@ -34,9 +34,9 @@
                             <th class="px-4 py-2">Numero de telefono</th>
                             <th class="px-4 py-2">Direccion de sedes</th>
                             <th class="px-4 py-2">Requisitos para estudiantes practicantes</th>
-                          <<!--  <th class="px-4 py-2">Area de practicas</th>
+                           <th class="px-4 py-2">Area de practicas</th>
                             <th class="px-4 py-2">Nombre del repepresentante encargado de PPP</th>
-                            <th class="px-4 py-2">Cargo del representante encargado de PPP</th></th>-->
+                            <th class="px-4 py-2">Cargo del representante encargado de PPP</th></th>
                             <th class="px-4 py-2">Telefono del representante
                             <th class="px-4 py-2">ACCIONES</th>
                         </tr>
@@ -53,11 +53,11 @@
                                 <td class="border px-4 py-2">{{ $empresa->empresa_direccion_de_sedes }}</td>
                                 <td class="border px-4 py-2">
                                     {{ $empresa->empresa_requisitos_para_estudiantes_practicantes }}</td>
-                               <!-- <td class="border px-4 py-2">{{ $empresa->empresa_area_de_pracicas }}</td>
+                               <td class="border px-4 py-2">{{ $empresa->empresa_area_de_pracicas }}</td>
                                 <td class="border px-4 py-2">
                                     {{ $empresa->empresa_nombre_representante_encargado_de_PPP }}</td>
                                 <td class="border px-4 py-2">
-                                    {{ $empresa->empresa_cargo_representante_encargado_de_PPP }}</td>-->
+                                    {{ $empresa->empresa_cargo_representante_encargado_de_PPP }}</td>
                                 <td class="border px-4 py-2">{{ $empresa->empresa_telefono_del_representante }}</td>
                                 <td class="border px-4 py-2 text-center">
                                     <button wire:click="editar({{ $empresa->id }})"
