@@ -1,16 +1,12 @@
 <?php
 
-namespace App\Livewire;
+namespace App\Http\Controllers;
 
 use App\Models\Empresa;
 use Illuminate\Http\Request;
-use Livewire\Component;
-use Illuminate\Support\Facades\DB;
 
-
-class Crudempresa extends Component
+class Crudempresa extends Controller
 {
-
     public $empresas, $empresa_nombre, $empresa_tipo_de_industria, $empresa_descripcion, $empresa_correo_electronico, $empresa_numero_de_telefono, $empresa_direccion_de_sedes, $empresa_requisitos_para_estudiantes_practicantes, $empresa_area_de_pracicas, $empresa_nombre_representante_encargado_de_PPP, $empresa_cargo_representante_encargado_de_PPP, $empresa_telefono_del_representante, $id_empresa;
     public $modal = false;
 
@@ -187,5 +183,3 @@ class Crudempresa extends Component
 
 
 }
-
-

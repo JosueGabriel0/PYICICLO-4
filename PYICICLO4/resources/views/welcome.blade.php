@@ -221,6 +221,14 @@
 
         <!--empieza Joel-->
         <footer>
+            <form action="{{ route('livewire.crudempresa') }}" method="get">
+            <div>
+                <a href="http://127.0.0.1:8000/crudempresa"><p class="text-black text-lg font-medium font-['Inter'] mt-8 ml-16">EMPRESAS</p></a>
+            </div>
+                </form>
+
+            @include('/livewire.crudempresa')
+
 
             <div class="flex w-full h-80 mt-2 aspect-square bg-sky-900 ">
 
